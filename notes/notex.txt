@@ -1,0 +1,22 @@
+
+# {} this is known as scope
+
+# this. works only in objects not in function
+
+# if{paranthese is used Return statement is must} explicit return
+or else while using () => arrow function return statement needs not to be used implicit return
+
+# Execution context:
+  1. global execution ------> this
+  2. Memory Phase -------> Memory Allocation
+  3. Execution Phase ------> Values Defined and real execution occurs (Returns value to global execution) 
+     (creates a new sandbox for every function and deletes it once after the job is done)
+     Lifo is applicable when nesting of functions is done
+
+# 1. for(of) loop is used to iterate in maps (gives value)
+  2. for(in) loop are used to iterate in objects (gives keys) we cannot iterate over maps using in loop
+  3. foreach uses function method to get access to value and
+  is used to fetch values of array of objects(db's)
+
+# Filter:-
+  Eg.(const userBooks = books.filter( (bkl) => bkl.genre === 'History'))
